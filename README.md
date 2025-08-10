@@ -18,7 +18,7 @@ initially, i tried to make the code readable, so it won't be a problem to find w
 **git is also integrated, without leaving the application, you can push and pull to your github, for example**
 
 
-## extra for ish users like me
+## extra for ish users
 
 
 /tec/profile.d/ - there some .sh files that runs on startup
@@ -54,6 +54,7 @@ add to your **.bashrc** file
 
 
 ## **have fun!**
+
 
 
 
