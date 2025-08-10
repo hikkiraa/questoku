@@ -1,4 +1,4 @@
-[text](README.md)
+[text](image.PNG)
 
 basic apps for my needs [task manager] [finance manager] [diary] with fancy status rpg-like
 
@@ -7,3 +7,4 @@ initially, I made it for my smartphone by downloading ish (shell app for ios) an
 now it's online, so you can use it on your own
 
 git is also integrated, without leaving the application, you can push and pull to your github, for example.
+
