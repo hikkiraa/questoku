@@ -1,48 +1,57 @@
-![Image alt](https://github.com/hikkiraa/questoku/blob/main/topimg.PNG?raw=true)
 
-_basic apps for my needs with fancy status rpg-like
 
-_I made it for my smartphone by downloading ish (shell app for ios) and cloning my repository there. This way I can use everything I need anywhere and on any of my devices. and because of this, the window changes to 41x19 at startup
+## basic apps without distractions / ads / subscriptions
+
 
 ![Image alt](https://github.com/hikkiraa/questoku/blob/main/image.PNG?raw=true)
 
-_now it's online, so you can use it on your own
-clone the repository and grant execution permissions to the scripts (chmod +x *.sh)
+clone the repository and grant execution permissions to the scripts `chmod +x *.sh`
 
-_but you have to adjust everything for yourself like font size on mobile shells, and there is an uncorrected problem with time zones in ish, so look at the code and correct your time zone code (e.g. my TZ=UTC-4), your currency in finance and the user's fields in stats, your editor (my is nano). Initially, I tried to make the code readable, so it won't be a problem to find it
+but you have to adjust everything for yourself
+- font size on mobile shell 
+- there is an uncorrected problem with time zones in ish (e.g. my `TZ=UTC-4`)
+- your currency and extra zeros in finance and the user's fields in stats
+- your editor (my is nano)
 
-_git is also integrated, without leaving the application, you can push and pull to your github, for example
+initially, i tried to make the code readable, so it won't be a problem to find what you want to edit
+
+**git is also integrated, without leaving the application, you can push and pull to your github, for example**
 
 
-<h2>_extra for ish users like me2</h2>
+## extra for ish users like me
+
 
 /tec/profile.d/ - there some .sh files that runs on startup
 
 add 'qtk.sh'
-#!/bin/bash
 
-#to run the app from its folder
-alias qtk="boot.sh"
-#you can add complete way to 'boot.sh' if you're using ish not only for app to reach it from any directory
+    #!/bin/bash
+    
+    # to run the app from its folder
+    alias qtk="boot.sh"
 
-#to run the app from ish startup
-cd questoku/
-./boot.sh
+    # to run the app from ish startup
+    cd questoku/
+    ./boot.sh
 
 
-_for pc (or whatever else you're working from)
+## for pc (or whatever else you're working from)
+
+**easily launch the app at any time**
 
 add 'qtk.sh'
-#scripts working with questoku/ directory
-#!/bin/bash
-cd /home/hikkiraa/questoku/
-./boot.sh
 
-add to your .bashrc file
+    #!/bin/bash
+    
+    # the scripts are working with questoku/ directory
+    
+    cd /home/[your_folder]/questoku/
+    ./boot.sh
 
-#easily launch the app at any time
-alias qtk="/home/[your_folder]/qtk.sh"
+add to your **.bashrc** file
+
+    alias qtk="/home/[your_folder]/qtk.sh"
 
 
-have fun!
+## **have fun!**
 
