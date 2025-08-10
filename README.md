@@ -1,6 +1,6 @@
 
 
-## basic apps without distractions / ads / subscriptions
+## basic apps without subscriptions / ads / interface distractions
 
 
 ![Image alt](https://github.com/hikkiraa/questoku/blob/main/image.PNG?raw=true)
@@ -54,4 +54,5 @@ add to your **.bashrc** file
 
 
 ## **have fun!**
+
 
