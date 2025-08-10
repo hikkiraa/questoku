@@ -53,7 +53,7 @@ add to your **.bashrc** file
     alias qtk="/home/[your_folder]/qtk.sh"
 
 
-## **have fun!**
+## **have fun!** `qtk`
 
 
 
