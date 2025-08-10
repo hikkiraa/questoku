@@ -14,7 +14,7 @@ _but you have to adjust everything for yourself like font size on mobile shells,
 _git is also integrated, without leaving the application, you can push and pull to your github, for example
 
 
-_extra for ish users like me:
+<h2>_extra for ish users like me2</h2>
 
 /tec/profile.d/ - there some .sh files that runs on startup
 
@@ -45,3 +45,4 @@ alias qtk="/home/[your_folder]/qtk.sh"
 
 
 have fun!
+
