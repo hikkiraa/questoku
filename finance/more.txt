@@ -1,0 +1,13 @@
+[i] - income
+
+[e] - expense
+
+[t] - transfer
+
+<hidden>
+
+[a] - archive [i]+[e]
+
+[l] - archive report
+
+[c] - edit current report

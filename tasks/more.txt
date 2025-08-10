@@ -1,0 +1,9 @@
+_notes           _tasks
+
+[a] - add        [a] - add
+
+[e] - edit       [e] - edit
+
+[d] - delete     [c] - complete
+
+[b] - back       [b] - back
